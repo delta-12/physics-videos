@@ -53,6 +53,120 @@
                     "link": "https://www.youtube.com/watch?v=bpz8sGGB6NM"
                 }
             ]
-        }
+        },
+        {
+            "number": 2,
+            "videos": [
+                {
+                    "name": "Definitions",
+                    "link": "https://www.youtube.com/watch?v=SoF7_Bl0Ks8"
+                },
+                {
+                    "name": "Visualizing Electric Fields",
+                    "link": "https://www.youtube.com/watch?v=4gsj9JJvaYM"
+                },
+                {
+                    "name": "Point Charge",
+                    "link": "https://www.youtube.com/watch?v=EfndUr34zwg"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "videos": [
+                {
+                    "name": "Approximating Small Values",
+                    "link": "https://www.youtube.com/watch?v=Db5bzHw2ohE"
+                },
+                {
+                    "name": "Electric Dipole",
+                    "link": "https://www.youtube.com/watch?v=5SHhoCRqHfs"
+                },
+                {
+                    "name": "Dipole in Electric Field",
+                    "link": "https://www.youtube.com/watch?v=erkd8hEeIjY"
+                },
+                {
+                    "name": "Torque and Potential Energy of a Dipole",
+                    "link": "https://www.youtube.com/watch?v=GfaZ3GRHHzI"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "videos": [
+                {
+                    "name": "Setting Up an Integration",
+                    "link": "https://www.youtube.com/watch?v=N_Lw3oYjqWY"
+                },
+                {
+                    "name": "Finding E by Integration",
+                    "link": "https://www.youtube.com/watch?v=G-kPm02Jm1w"
+                },
+                {
+                    "name": "Finite Line of Charge",
+                    "link": "https://www.youtube.com/watch?v=8A9qkIGHeEA"
+                },
+                {
+                    "name": "Ring of Charge",
+                    "link": "https://www.youtube.com/watch?v=MCtDzi-Ov9M"
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "videos": [
+                {
+                    "name": "Flux",
+                    "link": "https://www.youtube.com/watch?v=fV7DgaCs1M4"
+                },
+                {
+                    "name": "Visualizing Electric Flux",
+                    "link": "https://www.youtube.com/watch?v=B59fDq5wcO8"
+                },
+                {
+                    "name": "Calculating Electric Field",
+                    "link": "https://www.youtube.com/watch?v=M2Kyctv2osA"
+                },
+                {
+                    "name": "Field Lines and Enclosed Charge",
+                    "link": "https://www.youtube.com/watch?v=ROaOCnArBk8"
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "videos": [
+                {
+                    "name": "Choosing a Gaussian Surface",
+                    "link": "https://www.youtube.com/watch?v=A7BG4MK-jLI"
+                },
+                {
+                    "name": "Point Charge",
+                    "link": "https://www.youtube.com/watch?v=sZ7rilW-fmo"
+                },
+                {
+                    "name": "Conductors and Gauss' Law",
+                    "link": "https://www.youtube.com/watch?v=RqPfxeu1sIE"
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "videos": [
+                {
+                    "name": "Spherical Symmetry",
+                    "link": "https://www.youtube.com/watch?v=LMAaR8MGzKk"
+                },
+                {
+                    "name": "Cylindrical Symmetry",
+                    "link": "https://www.youtube.com/watch?v=DJ2MHAMdiPM"
+                },
+                {
+                    "name": "Planar Symmetry",
+                    "link": "https://www.youtube.com/watch?v=pdV_2UEq0WA"
+                }
+            ]
+        }        
     ]
 }
