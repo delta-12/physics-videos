@@ -16,6 +16,43 @@
                     "link": "https://www.youtube.com/watch?v=Hg8ICRx8_w4"
                 }
             ]
+        },
+        {
+            "number": 1,
+            "videos": [
+                {
+                    "name": "Two Types of Charge",
+                    "link": "https://www.youtube.com/watch?v=zTrnL2ZCUwk"
+                },
+                {
+                    "name": "Charge is Quantized",
+                    "link": "https://www.youtube.com/watch?v=9DW6jUDJXrY"
+                },
+                {
+                    "name": "Charge is Conserved",
+                    "link": "https://www.youtube.com/watch?v=4lNu6NXL7q0"
+                },
+                {
+                    "name": "Conductors and Insulators",
+                    "link": "https://www.youtube.com/watch?v=et8S73FMsiI"
+                },
+                {
+                    "name": "Charges Spread Out",
+                    "link": "https://www.youtube.com/watch?v=WegqTsBpGtI"
+                },
+                {
+                    "name": "Electric Force",
+                    "link": "https://www.youtube.com/watch?v=ExB1hOzqaQ0"
+                },
+                {
+                    "name": "Shell Theorems",
+                    "link": "https://www.youtube.com/watch?v=ANABf6oOsek"
+                },
+                {
+                    "name": "Electric Force on Neutral Objects",
+                    "link": "https://www.youtube.com/watch?v=bpz8sGGB6NM"
+                }
+            ]
         }
     ]
 }
