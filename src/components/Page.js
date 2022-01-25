@@ -13,7 +13,7 @@ export default class Page extends Component {
             <VideoSidebar links={this.props.links} />
           </div>
         </div>
-        <main className="col-md-9 ml-sm-auto col-lg-10 px-4 mt-5" style={{marginLeft: "17%" }}>
+        <main className="col-md-9 ml-sm-auto px-4 mt-5" style={{marginLeft: "17%" }}>
             {this.props.mainContent}
         </main>
       </div>
