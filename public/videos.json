@@ -1,0 +1,21 @@
+{   
+    "lectures": [
+        {
+            "number": 0,
+            "videos": [
+                {
+                    "name": "Four Fundamental Forces",
+                    "link": "https://www.youtube.com/watch?v=gbW555BKI08"
+                },
+                {
+                    "name": "Electromagnetic Force",
+                    "link": "https://www.youtube.com/watch?v=JxpIhjp9fao"
+                },
+                {
+                    "name": "Electromagnetic Radiation",
+                    "link": "https://www.youtube.com/watch?v=Hg8ICRx8_w4"
+                }
+            ]
+        }
+    ]
+}
