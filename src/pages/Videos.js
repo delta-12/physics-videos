@@ -5,9 +5,9 @@ import MainContent from "../components/MainContent"
 export default class Videos extends Component {
 
   render() {
-      const mainContent = <MainContent title={this.props.title} videos={this.props.videos} />
+      const mainContent = <MainContent title={this.props.title} videos={this.props.videos} windowWidth={this.props.windowWidth} />
       return (
-          <Page mainContent={mainContent} links={this.props.links} />
+          <Page mainContent={mainContent} links={this.props.links} windowWidth={this.props.windowWidth} />
       )
   }
 

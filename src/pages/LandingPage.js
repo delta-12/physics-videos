@@ -6,7 +6,7 @@ export default class LandingPage extends Component {
   render() {
     const mainContent = <h1>Welcome to Physics Videos!</h1>
     return (
-      <Page mainContent={mainContent} links={this.props.links} />
+      <Page mainContent={mainContent} links={this.props.links} windowWidth={this.props.windowWidth} />
     )
   }
 

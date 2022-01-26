@@ -6,11 +6,24 @@ import Videos from "./pages/Videos"
 export default class App extends Component {
 
   state = {
-    videoData: []
+    videoData: [],
+    windowWidth: window.innerWidth    
   }
 
   componentDidMount() {
+    window.addEventListener("resize", this.handleResize)
     this.getVideoData()
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize)
+  }
+
+  handleResize = e => {
+    e.preventDefault()
+    this.setState({
+      windowWidth: window.innerWidth
+    })
   }
 
   getVideoData = () => {
@@ -32,13 +45,13 @@ export default class App extends Component {
 
   render() {
     let lectureLinks = this.state.videoData.map(l => <li key={l.number} id={l.number} className="nav-item justify-content-between align-items-center px-2 mt-1 mb-1"><Link to={"/lecture"+l.number} style={{ textDecoration: "none" }}>{"Lecture " + l.number}</Link></li>)
-    let lectures = this.state.videoData.map(l => <Videos key={l.number} title={"Lecture " + l.number} videos={l.videos} links={lectureLinks} />)
+    let lectures = this.state.videoData.map(l => <Videos windowWidth={this.state.windowWidth} key={l.number} title={"Lecture " + l.number} videos={l.videos} links={lectureLinks} />)
     let routes = this.state.videoData.map(l => <Route key={l.number} path={"/lecture"+l.number} element={lectures[l.number]} />)
       return (
       <div>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<LandingPage links={lectureLinks} />} />
+            <Route path="/" element={<LandingPage links={lectureLinks} windowWidth={this.state.windowWidth} />} />
             {routes}
           </Routes>
         </BrowserRouter>

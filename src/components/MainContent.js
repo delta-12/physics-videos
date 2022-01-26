@@ -1,4 +1,5 @@
 import { Component } from "react"
+import classnames from "classnames"
 import VideoHeader from "./VideoHeader"
 
 export default class MainContent extends Component {
@@ -13,11 +14,12 @@ export default class MainContent extends Component {
     }
 
     render() {
+        const width = (this.props.windowWidth >= 1153) ? 1153 : this.props.windowWidth * 0.9
         return (
-            <main className="ml-sm-auto col-lg-12 px-4 mt-5" >
+            <main className={classnames((width >= 1153) ? "ml-sm-auto col-lg-12 px-4 mt-5" : "col-lg-12 mt-5")} >
                 <VideoHeader title={this.props.title} videos={this.props.videos} onClick={this.onClick} />
                 {
-                    (this.state.videoID.length > 0) ? <iframe className="mt-3" width="1153" height="721" src={"https://www.youtube.com/embed/"+this.state.videoID} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> : null 
+                    (this.state.videoID.length > 0) ? <iframe className="mt-3" width={width} height={width / 1.6} src={"https://www.youtube.com/embed/"+this.state.videoID} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> : null 
                 }
             </main>
         )
