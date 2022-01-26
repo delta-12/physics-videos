@@ -2,6 +2,6 @@
 
 - [ ] Collect metrics
   - what users, how many
-- [ ] Lecture titles
-- [ ] Mobile compatibility
+- [x] Lecture titles
+- [x] Mobile compatibility
 - [ ] Scraping script, automatically generate videos.json

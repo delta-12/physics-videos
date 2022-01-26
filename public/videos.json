@@ -2,6 +2,7 @@
     "lectures": [
         {
             "number": 0,
+            "title": "Lecture 0 - Introduction",
             "videos": [
                 {
                     "name": "Four Fundamental Forces",
@@ -19,6 +20,7 @@
         },
         {
             "number": 1,
+            "title": "Lecture 1 - Coulomb's Law",
             "videos": [
                 {
                     "name": "Two Types of Charge",
@@ -56,6 +58,7 @@
         },
         {
             "number": 2,
+            "title": "Lecture 2 - Electric Field",
             "videos": [
                 {
                     "name": "Definitions",
@@ -73,6 +76,7 @@
         },
         {
             "number": 3,
+            "title": "Lecture 3 - Simple Charge Distributions",
             "videos": [
                 {
                     "name": "Approximating Small Values",
@@ -94,6 +98,7 @@
         },
         {
             "number": 4,
+            "title": "Lecture 4 - Extended Charge Distributions",
             "videos": [
                 {
                     "name": "Setting Up an Integration",
@@ -115,6 +120,7 @@
         },
         {
             "number": 5,
+            "title": "Lecture 5 - Electric Flux",
             "videos": [
                 {
                     "name": "Flux",
@@ -136,6 +142,7 @@
         },
         {
             "number": 6,
+            "title": "Lecture 6 - Gauss' Law Part 1",
             "videos": [
                 {
                     "name": "Choosing a Gaussian Surface",
@@ -153,6 +160,7 @@
         },
         {
             "number": 7,
+            "title": "Lecture 7 - Gauss' Law Part 2",
             "videos": [
                 {
                     "name": "Spherical Symmetry",

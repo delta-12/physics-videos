@@ -44,8 +44,8 @@ export default class App extends Component {
   }
 
   render() {
-    let lectureLinks = this.state.videoData.map(l => <li key={l.number} id={l.number} className="nav-item justify-content-between align-items-center px-2 mt-1 mb-1"><Link to={"/lecture"+l.number} style={{ textDecoration: "none" }}>{"Lecture " + l.number}</Link></li>)
-    let lectures = this.state.videoData.map(l => <Videos windowWidth={this.state.windowWidth} key={l.number} title={"Lecture " + l.number} videos={l.videos} links={lectureLinks} />)
+    let lectureLinks = this.state.videoData.map(l => <li key={l.number} id={l.number} className="nav-item justify-content-between align-items-center px-2 mt-1 mb-1"><Link to={"/lecture"+l.number} style={{ textDecoration: "none" }}>{l.title}</Link></li>)
+    let lectures = this.state.videoData.map(l => <Videos windowWidth={this.state.windowWidth} key={l.number} title={l.title} videos={l.videos} links={lectureLinks} />)
     let routes = this.state.videoData.map(l => <Route key={l.number} path={"/lecture"+l.number} element={lectures[l.number]} />)
       return (
       <div>
