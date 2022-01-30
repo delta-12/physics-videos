@@ -175,6 +175,92 @@
                     "link": "https://www.youtube.com/watch?v=pdV_2UEq0WA"
                 }
             ]
-        }        
+        },
+        {
+            "number": 8,
+            "title": "Lecture 8 - Electric Potential Part 1",
+            "videos": [
+                {
+                    "name": "Review of Potential Energy",
+                    "link": "https://www.youtube.com/watch?v=P69Uc8E-VXk"
+                },
+                {
+                    "name": "Electric Potential Energy",
+                    "link": "https://www.youtube.com/watch?v=sPHEd1Kjyog"
+                },
+                {
+                    "name": "Electric Potential and Work",
+                    "link": "https://www.youtube.com/watch?v=daAiTBR-Fsw"
+                },
+                {
+                    "name": "Equipotentials",
+                    "link": "https://www.youtube.com/watch?v=rN1Dxj56XmE"
+                },
+                {
+                    "name": "Calculating Potential From Field",
+                    "link": "https://www.youtube.com/watch?v=1F8cjE16dIQ"
+                },
+                {
+                    "name": "Point Charge",
+                    "link": "https://www.youtube.com/watch?v=w8lIQgvCyn8"
+                },
+                {
+                    "name": "Collection of Point Charges",
+                    "link": "https://www.youtube.com/watch?v=InIPw0nuC7M"
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "title": "Lecture 9 - Electric Potential Part 2",
+            "videos": [
+                {
+                    "name": "Charge Distributions",
+                    "link": "https://www.youtube.com/watch?v=MhRB0VCBrVg"
+                },
+                {
+                    "name": "Charge Distributions Examples",
+                    "link": "https://www.youtube.com/watch?v=QrPw-LYqbsU"
+                },
+                {
+                    "name": "Potential Inside a Conductor",
+                    "link": "https://www.youtube.com/watch?v=cJ9HnCUyvYM"
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "title": "Lecture 10 - Capacitance",
+            "videos": [
+                {
+                    "name": "Description of Capacitance",
+                    "link": "https://www.youtube.com/watch?v=S28tGrgdUSw"
+                },
+                {
+                    "name": "Energy Stored in a Capacitor",
+                    "link": "https://www.youtube.com/watch?v=DT31zglaIoI"
+                },
+                {
+                    "name": "Dielectrics",
+                    "link": "https://www.youtube.com/watch?v=2QAuwV7biuc"
+                },
+                {
+                    "name": "Physics of Dielectrics",
+                    "link": "https://www.youtube.com/watch?v=8JpqMRzpxOc"
+                },
+                {
+                    "name": "Dielectrics and Capacitors",
+                    "link": "https://www.youtube.com/watch?v=4X2m4XKnK_E"
+                },
+                {
+                    "name": "Parallel Plate Capacitor",
+                    "link": "https://www.youtube.com/watch?v=NNPyvjJAtww"
+                },
+                {
+                    "name": "Energy Density of an Electric Field",
+                    "link": "https://www.youtube.com/watch?v=8ipZ1_dDOlM"
+                }
+            ]
+        }
     ]
 }
