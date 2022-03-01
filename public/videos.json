@@ -261,6 +261,32 @@
                     "link": "https://www.youtube.com/watch?v=8ipZ1_dDOlM"
                 }
             ]
+        },
+        {
+            "number": 11,
+            "title": "Lecture 17 - RC Circuits, Magnetic Force",
+            "videos": [
+                {
+                    "name": "Charging a Capacitor",
+                    "link": "https://www.youtube.com/watch?v=takP_FV9ALo"
+                },
+                {
+                    "name": "Discharging a Capacitor",
+                    "link": "https://www.youtube.com/watch?v=FhRokNj6Nmk"
+                },
+                {
+                    "name": "Definition of Magnetic Field",
+                    "link": "https://www.youtube.com/watch?v=q2q_tqU3OkE"
+                },
+                {
+                    "name": "Magnetic Field Lines",
+                    "link": "https://www.youtube.com/watch?v=6dY__G4_iUE"
+                },
+                {
+                    "name": "Magnetic Fields and Circular Motion",
+                    "link": "https://www.youtube.com/watch?v=dz7vxjqlqcA"
+                }
+            ]
         }
     ]
 }
